@@ -1,0 +1,60 @@
+.site-container {
+  background-color: #e4f2f0;
+  position: relative;
+  max-width: 1280px;
+  min-width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 800px;
+}
+
+/* Nav */
+
+.nav {
+  background-color: #c2b0c9;
+}
+.title {
+  color: #27496d;
+}
+.navbar-info {
+  display: flex;
+}
+.nav-link {
+  color: #27496d;
+}
+
+/* Neon */
+
+.wrapper {
+  position: absolute;
+  top: 30%;
+  font-size: 1.5rem;
+  margin: 10px;
+  right: 15%;
+}
+span:before {
+  content: "";
+  animation: animate infinite 5s;
+}
+@keyframes animate {
+  0% {
+    content: "Welcome";
+  }
+  20% {
+    content: "Bem Vindo";
+  }
+  60% {
+    content: "Bienvenue";
+  }
+  80% {
+    content: "Willkommen";
+  }
+  100% {
+    content: "Bienvenido";
+  }
+}
+.neon {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px rgb(255, 255, 255),
+    0 0 10px rgb(48, 76, 238), 0 0 10px rgb(0, 38, 255);
+}
