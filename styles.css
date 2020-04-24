@@ -1,33 +1,35 @@
 .site-container {
-  background-color: #e4f2f0;
+  background-color: #c8e8ed;
   position: relative;
   max-width: 1280px;
-  min-width: 220px;
+  /* min-width: 220px; */
   margin-right: auto;
   margin-left: auto;
-  height: 800px;
+  /* height: 800px; */
+  text-align: center;
 }
+/* #e8e8e8 cinza/areia */
 
 /* Nav */
 
 .nav {
-  background-color: #c2b0c9;
+  background-color: #27496d;
 }
 .title {
-  color: #27496d;
+  color: #c8e8ed;
 }
 .navbar-info {
   display: flex;
 }
 .nav-link {
-  color: #27496d;
+  color: #c8e8ed;
 }
 
 /* Neon */
 
 .wrapper {
   position: absolute;
-  top: 30%;
+  top: 15%;
   font-size: 1.5rem;
   margin: 10px;
   right: 15%;
@@ -57,4 +59,24 @@ span:before {
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px rgb(255, 255, 255),
     0 0 10px rgb(48, 76, 238), 0 0 10px rgb(0, 38, 255);
+}
+
+/* Projects */
+
+.projects-container {
+  position: relative;
+  top: 25rem;
+}
+.proj-minor-container {
+  display: flex;
+  padding: 5%;
+}
+.card-styles {
+  margin: 3%;
+}
+
+/* Contact */
+
+.contact {
+  position: relative;
 }
